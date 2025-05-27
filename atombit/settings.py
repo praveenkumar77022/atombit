@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-s)1_y-k@vp_@6f+7uzo81i%84w!@ma4%+7)j@ek48(k*0bv--r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+#ALLOWED_HOSTS = ['atombit.in', 'www.atombit.in']
+ALLOWED_HOSTS = ['atombit.in', 'www.atombit.in', 'localhost', '127.0.0.1']
 
 # Application definition
 

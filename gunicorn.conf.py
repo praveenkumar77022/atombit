@@ -1,0 +1,9 @@
+bind = "0.0.0.0:8000"
+workers = 3
+user = "www-data"
+group = "www-data"
+timeout = 120
+keepalive = 5
+errorlog = "/var/www/atombit/logs/gunicorn-error.log"
+accesslog = "/var/www/atombit/logs/gunicorn-access.log"
+loglevel = "info"
