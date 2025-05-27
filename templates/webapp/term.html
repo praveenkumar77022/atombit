@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - ATOMBIT Technologies</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --atombit-green: #00C896;
+            --atombit-orange: #FF8C00;
+            --tech-blue: #0066FF;
+            --premium-purple: #6B46C1;
+            --deep-navy: #0f172a;
+            --cream-white: #FEFCE8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background: #f8fafc;
+        }
+
+        .navbar {
+            background: var(--deep-navy) !important;
+            padding: 1.5rem 0;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, var(--atombit-green), var(--atombit-orange));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+        }
+
+        .terms-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .terms-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--atombit-orange);
+        }
+
+        .terms-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--deep-navy);
+            margin-bottom: 1rem;
+        }
+
+        .terms-date {
+            color: var(--atombit-orange);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--deep-navy);
+            margin: 2rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--atombit-orange);
+        }
+
+        .section-content {
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            color: #374151;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(255, 140, 0, 0.1), rgba(0, 102, 255, 0.1));
+            border: 1px solid rgba(255, 140, 0, 0.3);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(245, 158, 11, 0.1));
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .contact-info {
+            background: var(--deep-navy);
+            color: #ffffff;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .contact-info h4 {
+            color: var(--atombit-orange);
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            padding-left: 2rem;
+        }
+
+        ol {
+            padding-left: 2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        strong {
+            color: var(--deep-navy);
+        }
+
+        .back-btn {
+            background: linear-gradient(45deg, var(--atombit-orange), #FF7A00);
+            color: #ffffff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255, 140, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .service-item {
+            background: linear-gradient(135deg, rgba(0, 200, 150, 0.1), rgba(255, 140, 0, 0.1));
+            padding: 1rem;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 200, 150, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="terms-container">
+       
+
+            <div class="terms-header">
+                <h1 class="terms-title">Terms of Service</h1>
+                <p class="terms-date">Effective Date: January 1, 2025</p>
+            </div>
+
+            <div class="highlight-box">
+                <p><strong>Welcome to ATOMBIT Technologies!</strong> These Terms of Service ("Terms") govern your use of our website and services. By accessing our website or engaging our services, you agree to be bound by these Terms.</p>
+            </div>
+
+            <h2 class="section-title">1. About ATOMBIT Technologies</h2>
+            <div class="section-content">
+                <p><strong>ATOMBIT Technologies</strong> is a technology company based in Hyderabad, Telangana, India, providing comprehensive digital solutions including:</p>
+                
+                <div class="service-grid">
+                    <div class="service-item">
+                        <strong>Web Development</strong><br>
+                        Custom websites, e-commerce platforms, web applications
+                    </div>
+                    <div class="service-item">
+                        <strong>Mobile App Development</strong><br>
+                        iOS, Android, cross-platform applications
+                    </div>
+                    <div class="service-item">
+                        <strong>Logo & Brand Design</strong><br>
+                        Brand identity, visual design, marketing materials
+                    </div>
+                    <div class="service-item">
+                        <strong>Digital Marketing</strong><br>
+                        SEO, social media, PPC campaigns, analytics
+                    </div>
+                    <div class="service-item">
+                        <strong>Software Development</strong><br>
+                        Custom software, enterprise solutions, automation
+                    </div>
+                    <div class="service-item">
+                        <strong>Forex Solutions</strong><br>
+                        CRM systems, PAMM/MAMM, copy trading platforms
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title">2. Acceptance of Terms</h2>
+            <div class="section-content">
+                <p>By using our services, you acknowledge that you:</p>
+                <ul>
+                    <li>Are at least 18 years of age or have legal guardian consent</li>
+                    <li>Have the legal authority to enter into this agreement</li>
+                    <li>Will comply with all applicable laws and regulations</li>
+                    <li>Provide accurate and complete information</li>
+                    <li>Accept responsibility for all activities under your account</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">3. Service Descriptions and Scope</h2>
+            <div class="section-content">
+                <h4>3.1 Web Development Services</h4>
+                <ul>
+                    <li>Custom website design and development</li>
+                    <li>E-commerce platform development</li>
+                    <li>Web application development</li>
+                    <li>Content management systems</li>
+                    <li>Website maintenance and support</li>
+                </ul>
+
+                <h4>3.2 Mobile App Development Services</h4>
+                <ul>
+                    <li>Native iOS and Android applications</li>
+                    <li>Cross-platform mobile solutions</li>
+                    <li>UI/UX design and development</li>
+                    <li>App store submission and optimization</li>
+                    <li>Mobile app maintenance and updates</li>
+                </ul>
+
+                <h4>3.3 Digital Marketing Services</h4>
+                <ul>
+                    <li>Search engine optimization (SEO)</li>
+                    <li>Pay-per-click (PPC) advertising</li>
+                    <li>Social media marketing and management</li>
+                    <li>Content marketing and creation</li>
+                    <li>Analytics and performance reporting</li>
+                </ul>
+
+                <h4>3.4 Specialized Forex Services</h4>
+                <ul>
+                    <li>Forex CRM development and customization</li>
+                    <li>PAMM and MAMM system development</li>
+                    <li>Copy trading platform development</li>
+                    <li>Introducing Broker (IB) management systems</li>
+                    <li>Trading platform integration</li>
+                </ul>
+
+                <div class="warning-box">
+                    <p><strong>Important:</strong> Forex services are subject to additional regulations and compliance requirements. Clients must ensure they have proper licenses and authorizations for forex operations in their jurisdiction.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">4. Project Terms and Conditions</h2>
+            <div class="section-content">
+                <h4>4.1 Project Proposals and Contracts</h4>
+                <ul>
+                    <li>All projects begin with a detailed proposal outlining scope, timeline, and costs</li>
+                    <li>Projects require a signed contract before commencement</li>
+                    <li>Changes to project scope require written approval and may incur additional costs</li>
+                    <li>Timeline estimates are based on client cooperation and timely feedback</li>
+                </ul>
+
+                <h4>4.2 Client Responsibilities</h4>
+                <ul>
+                    <li>Provide all necessary content, materials, and information</li>
+                    <li>Respond to requests for feedback within agreed timeframes</li>
+                    <li>Obtain necessary licenses for third-party tools and services</li>
+                    <li>Ensure legal compliance for your business operations</li>
+                    <li>Make payments according to agreed schedules</li>
+                </ul>
+
+                <h4>4.3 Delivery and Acceptance</h4>
+                <ul>
+                    <li>Projects are delivered according to agreed specifications</li>
+                    <li>Clients have 7 days to review and request revisions</li>
+                    <li>Minor revisions are included; major changes may incur additional costs</li>
+                    <li>Final acceptance occurs upon client approval or after revision period</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">5. Payment Terms</h2>
+            <div class="section-content">
+                <h4>5.1 Payment Schedule</h4>
+                <ul>
+                    <li>Projects typically require 50% advance payment before commencement</li>
+                    <li>Remaining balance due upon project completion</li>
+                    <li>Large projects may have milestone-based payment schedules</li>
+                    <li>Monthly retainer services require advance payment</li>
+                </ul>
+
+                <h4>5.2 Payment Methods</h4>
+                <ul>
+                    <li>Bank transfers (preferred method)</li>
+                    <li>Online payment gateways</li>
+                    <li>Checks (for significant amounts)</li>
+                    <li>International wire transfers (for overseas clients)</li>
+                </ul>
+
+                <h4>5.3 Late Payments</h4>
+                <ul>
+                    <li>Late payment charges of 2% per month on overdue amounts</li>
+                    <li>Services may be suspended for payments overdue by 30+ days</li>
+                    <li>Legal action may be taken for payments overdue by 90+ days</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">6. Intellectual Property Rights</h2>
+            <div class="section-content">
+                <h4>6.1 Client-Owned Content</h4>
+                <ul>
+                    <li>Clients retain ownership of their content, logos, and brand materials</li>
+                    <li>Clients grant us license to use their materials for project completion</li>
+                    <li>We respect and protect client confidential information</li>
+                </ul>
+
+                <h4>6.2 Developed Solutions</h4>
+                <ul>
+                    <li>Custom-developed solutions become client property upon full payment</li>
+                    <li>We retain rights to general methodologies and techniques</li>
+                    <li>Source code is provided upon project completion and payment</li>
+                    <li>We may retain rights to portfolio use and case studies (with client consent)</li>
+                </ul>
+
+                <h4>6.3 Third-Party Components</h4>
+                <ul>
+                    <li>Third-party tools and libraries remain property of their respective owners</li>
+                    <li>Clients responsible for obtaining necessary licenses</li>
+                    <li>We provide guidance on licensing requirements</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">7. Confidentiality and Data Protection</h2>
+            <div class="section-content">
+                <p>We are committed to protecting client confidentiality:</p>
+                <ul>
+                    <li>All client information is treated as confidential</li>
+                    <li>Non-disclosure agreements (NDAs) available upon request</li>
+                    <li>Data protection measures comply with applicable privacy laws</li>
+                    <li>Client data is not shared with unauthorized third parties</li>
+                    <li>Secure development and deployment practices are followed</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <p><strong>Special Note:</strong> For forex clients, we maintain additional security measures and comply with financial industry data protection standards.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">8. Warranties and Disclaimers</h2>
+            <div class="section-content">
+                <h4>8.1 Service Warranties</h4>
+                <ul>
+                    <li>We warrant that services will be performed with professional skill</li>
+                    <li>Delivered solutions will substantially conform to agreed specifications</li>
+                    <li>We will correct defects identified within 30 days of delivery</li>
+                </ul>
+
+                <h4>8.2 Disclaimer of Other Warranties</h4>
+                <ul>
+                    <li>Services provided "as is" without other express warranties</li>
+                    <li>No warranty regarding third-party compatibility</li>
+                    <li>No guarantee of specific business results or outcomes</li>
+                    <li>Client responsible for backup and security of their data</li>
+                </ul>
+
+                <div class="warning-box">
+                    <p><strong>Important Disclaimer:</strong> For forex and trading-related services, we do not guarantee trading performance, profitability, or investment outcomes. Trading involves substantial risk and may not be suitable for all investors.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">9. Limitation of Liability</h2>
+            <div class="section-content">
+                <p>Our liability is limited as follows:</p>
+                <ul>
+                    <li>Total liability shall not exceed the total amount paid for services</li>
+                    <li>No liability for indirect, consequential, or punitive damages</li>
+                    <li>No liability for business interruption or lost profits</li>
+                    <li>Client must notify us of claims within 6 months of discovery</li>
+                    <li>Force majeure events (natural disasters, etc.) exclude liability</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">10. Support and Maintenance</h2>
+            <div class="section-content">
+                <h4>10.1 Included Support</h4>
+                <ul>
+                    <li>Bug fixes for 30 days after project delivery</li>
+                    <li>Basic technical support via email</li>
+                    <li>Documentation and user guides</li>
+                </ul>
+
+                <h4>10.2 Extended Support (Additional Cost)</h4>
+                <ul>
+                    <li>Ongoing maintenance and updates</li>
+                    <li>Feature enhancements and modifications</li>
+                    <li>Priority technical support</li>
+                    <li>Server management and monitoring</li>
+                    <li>Security updates and patches</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">11. Termination</h2>
+            <div class="section-content">
+                <h4>11.1 Termination by Client</h4>
+                <ul>
+                    <li>Clients may terminate projects with 15 days written notice</li>
+                    <li>Payment due for work completed up to termination date</li>
+                    <li>Deliverables completed will be provided upon payment</li>
+                </ul>
+
+                <h4>11.2 Termination by ATOMBIT</h4>
+                <ul>
+                    <li>We may terminate for non-payment or breach of terms</li>
+                    <li>15 days notice provided for termination (except for material breach)</li>
+                    <li>Work completed will be delivered upon payment of outstanding amounts</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">12. Governing Law and Disputes</h2>
+            <div class="section-content">
+                <ul>
+                    <li>These Terms are governed by the laws of India</li>
+                    <li>Disputes subject to jurisdiction of Hyderabad courts</li>
+                    <li>Preference for amicable resolution through negotiation</li>
+                    <li>Mediation available for complex disputes</li>
+                    <li>Arbitration may be required for certain commercial disputes</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">13. Compliance and Regulatory Requirements</h2>
+            <div class="section-content">
+                <h4>13.1 General Compliance</h4>
+                <ul>
+                    <li>Clients responsible for compliance with applicable laws in their jurisdiction</li>
+                    <li>We provide guidance but do not guarantee regulatory compliance</li>
+                    <li>Clients must obtain necessary licenses and approvals</li>
+                </ul>
+
+                <h4>13.2 Forex Services Compliance</h4>
+                <ul>
+                    <li>Forex clients must have proper regulatory authorizations</li>
+                    <li>Compliance with anti-money laundering (AML) requirements</li>
+                    <li>Know Your Customer (KYC) procedures must be implemented</li>
+                    <li>Risk disclosure requirements must be met</li>
+                </ul>
+
+                <div class="warning-box">
+                    <p><strong>Regulatory Notice:</strong> Forex trading and related services are highly regulated. Clients must ensure they have all necessary licenses and comply with local financial regulations. We recommend consulting with legal and compliance experts.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">14. Amendments and Updates</h2>
+            <div class="section-content">
+                <ul>
+                    <li>These Terms may be updated periodically</li>
+                    <li>Significant changes will be communicated to active clients</li>
+                    <li>Continued use of services constitutes acceptance of updated Terms</li>
+                    <li>Project-specific contracts may have additional or modified terms</li>
+                </ul>
+            </div>
+
+            <div class="contact-info">
+                <h4><i class="fas fa-gavel me-2"></i>Legal and Contract Information</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>ATOMBIT Technologies</strong><br>
+                        Hyderabad, Telangana, India</p>
+                        
+                        <p><i class="fas fa-envelope me-2"></i>contracts@atombit.in<br>
+                        <i class="fas fa-phone me-2"></i>+91 9281402168<br>
+                        <i class="fas fa-globe me-2"></i>www.atombit.in</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>For Legal Inquiries:</strong><br>
+                        legal@atombit.in</p>
+                        
+                        <p><strong>For Compliance Questions:</strong><br>
+                        compliance@atombit.in</p>
+                        
+                        <p><strong>Business Hours:</strong><br>
+                        Monday - Friday: 9:00 AM - 6:00 PM IST<br>
+                        Saturday: 10:00 AM - 4:00 PM IST</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <p><strong>Agreement Details:</strong></p>
+                <ul>
+                    <li><strong>Last Updated:</strong> January 1, 2025</li>
+                    <li><strong>Version:</strong> 1.0</li>
+                    <li><strong>Governing Law:</strong> Laws of India</li>
+                    <li><strong>Jurisdiction:</strong> Hyderabad, Telangana, India</li>
+                    <li><strong>Language:</strong> These Terms are originally written in English</li>
+                </ul>
+                
+                <p><strong>Acknowledgment:</strong> By using our services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

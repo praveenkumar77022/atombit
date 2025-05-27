@@ -1,0 +1,648 @@
+{% extends "webapp/index.html" %}
+{% load static %}
+{% block home %}   
+   <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="tech-elements">
+            <div class="tech-element"><i class="fas fa-code"></i></div>
+            <div class="tech-element"><i class="fas fa-server"></i></div>
+            <div class="tech-element"><i class="fas fa-cloud"></i></div>
+            <div class="tech-element"><i class="fas fa-mobile-alt"></i></div>
+            <div class="tech-element"><i class="fas fa-database"></i></div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content fade-in">
+                        <h1 class="hero-title">Building Innovative and Creative Solutions for <span style="color: var(--atombit-green);">Modern Business Growth</span></h1>
+                        <p class="hero-subtitle">Web Development • Mobile Apps • Digital Marketing • Software Solutions • Forex Systems</p>
+                        <p class="hero-description">
+                            With over 10 years of specialized experience across multiple technology domains, we have helped businesses from startups to enterprises build robust, scalable solutions. Whether it's developing forex CRM systems, creating stunning websites, building mobile applications, or implementing comprehensive digital marketing strategies, our expertise consistently delivers exceptional results.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="royal-btn me-3">
+                                <i class="fas fa-rocket me-2"></i>Start Your Project
+                            </a>
+                            <a href="#services" class="royal-btn" style="background: transparent; border: 2px solid var(--atombit-orange); color: var(--atombit-orange);">
+                                <i class="fas fa-laptop-code me-2"></i>Explore Solutions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image text-center fade-in">
+                        <div class="gradient-blink-circle hero-logo-container" style="width: 400px; height: 400px; background: linear-gradient(45deg, rgba(0, 200, 150, 0.2), rgba(255, 140, 0, 0.2)); border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); border: 2px solid rgba(0, 200, 150, 0.3);">
+                            <div style="text-align: center; color: #ffffff;">
+                                <div class="atomic-symbol" style="font-size: 4rem; margin-bottom: 1rem;">
+                                    <i class="fas fa-atom"></i>
+                                </div>
+                                <div style="font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700;">
+                                    <span style="color: var(--atombit-green);">ATOM</span><span style="color: var(--atombit-orange);">BIT</span>
+                                </div>
+                                <div style="font-size: 1rem; opacity: 0.8; margin-top: 0.5rem;">
+                                    Technology Excellence
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tagline Below Circle -->
+                        <div style="margin-top: 2rem; text-align: center;">
+                            <p style="font-size: 1.3rem; font-weight: 600; color: #ffffff; margin-bottom: 0.5rem; font-family: 'Playfair Display', serif;">
+                                Building Tomorrow's Digital Solutions Today
+                            </p>
+                            <p style="font-size: 1rem; color: var(--atombit-orange); font-weight: 500; opacity: 0.9;">
+                                Precision • Performance • Progress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-badge fade-in">
+                <h3 style="color: var(--deep-navy); margin-bottom: 2rem; font-family: 'Playfair Display', serif;">Trusted By Leading Enterprises</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon healthcare fade-in" style="position: relative;">
+                        <i class="fas fa-hospital"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">Healthcare</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon fintech fade-in" style="position: relative;">
+                        <i class="fas fa-university"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">FinTech</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon ecommerce fade-in" style="position: relative;">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">E-commerce</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon edtech fade-in" style="position: relative;">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">EdTech</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon manufacturing fade-in" style="position: relative;">
+                        <i class="fas fa-industry"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">Manufacturing</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon realestate fade-in" style="position: relative;">
+                        <i class="fas fa-home"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">Real Estate</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon forex fade-in" style="position: relative;">
+                        <i class="fas fa-chart-line"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">Forex Trading</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon jewelry fade-in" style="position: relative;">
+                        <i class="fas fa-gem"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">Jeweler CRM</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4 mb-3">
+                    <div class="industry-icon travel fade-in" style="position: relative;">
+                        <i class="fas fa-plane"></i>
+                        <div style="font-size: 0.8rem; margin-top: 0.5rem; color: #64748b;">Travel & Tourism</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-item fade-in">
+                        <div class="stat-number" data-count="150">0</div>
+                        <div class="stat-label">Websites Developed</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-item fade-in">
+                        <div class="stat-number" data-count="80">0</div>
+                        <div class="stat-label">Mobile Apps Built</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-item fade-in">
+                        <div class="stat-number" data-count="200">0</div>
+                        <div class="stat-label">Forex & Software Solutions</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-item fade-in">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Our Comprehensive Services</h2>
+                <p class="section-subtitle fade-in">Complete technology solutions for forex, business development, and digital growth</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">
+                            Professional websites and web applications with modern design, responsive layouts, and powerful backend systems. From corporate websites to complex web portals.
+                        </p>
+                        <ul class="service-features">
+                            <li>Responsive Website Design</li>
+                            <li>E-commerce Development</li>
+                            <li>Web Application Development</li>
+                            <li>CMS & Portal Solutions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title">Mobile App Development</h3>
+                        <p class="service-description">
+                            Native and cross-platform mobile applications for iOS and Android with advanced features, intuitive interfaces, and seamless performance across all devices.
+                        </p>
+                        <ul class="service-features">
+                            <li>Native iOS & Android Apps</li>
+                            <li>Cross-Platform Development</li>
+                            <li>UI/UX Design & Development</li>
+                            <li>App Store Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="service-title">Logo & Brand Design</h3>
+                        <p class="service-description">
+                            Professional logo design and complete brand identity solutions. Create memorable visual identities that represent your business values and connect with your target audience.
+                        </p>
+                        <ul class="service-features">
+                            <li>Logo Design & Branding</li>
+                            <li>Brand Identity Development</li>
+                            <li>Marketing Material Design</li>
+                            <li>Brand Guidelines Creation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3 class="service-title">Digital Marketing</h3>
+                        <p class="service-description">
+                            Complete digital marketing strategies including SEO, social media marketing, PPC campaigns, content marketing, and analytics to grow your online presence and business.
+                        </p>
+                        <ul class="service-features">
+                            <li>SEO & Content Marketing</li>
+                            <li>Social Media Management</li>
+                            <li>PPC & Ad Campaigns</li>
+                            <li>Analytics & Reporting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service-title">Software Development</h3>
+                        <p class="service-description">
+                            Custom software solutions for businesses including desktop applications, enterprise systems, automation tools, and specialized business management software.
+                        </p>
+                        <ul class="service-features">
+                            <li>Custom Software Solutions</li>
+                            <li>Enterprise Applications</li>
+                            <li>Business Automation Tools</li>
+                            <li>System Integration Services</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="service-title">Forex CRM Development</h3>
+                        <p class="service-description">
+                            Complete customer relationship management systems tailored for forex brokers. Manage leads, clients, deposits, withdrawals, and trading activities with advanced reporting and analytics.
+                        </p>
+                        <ul class="service-features">
+                            <li>Lead Management & Conversion</li>
+                            <li>Client Onboarding & KYC Integration</li>
+                            <li>Trading Account Management</li>
+                            <li>Payment Gateway Integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="service-title">PAMM & MAMM Systems</h3>
+                        <p class="service-description">
+                            Professional money management platforms allowing fund managers to manage multiple investor accounts. Complete portfolio allocation, profit sharing, and performance tracking systems.
+                        </p>
+                        <ul class="service-features">
+                            <li>Portfolio Allocation Management</li>
+                            <li>Automated Profit Distribution</li>
+                            <li>Performance Analytics & Reporting</li>
+                            <li>Risk Management Tools</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-copy"></i>
+                        </div>
+                        <h3 class="service-title">Copy Trading Platforms</h3>
+                        <p class="service-description">
+                            Advanced social trading platforms enabling traders to copy successful strategies automatically. Real-time trade replication with customizable risk management parameters.
+                        </p>
+                        <ul class="service-features">
+                            <li>Real-time Trade Copying</li>
+                            <li>Strategy Provider Rankings</li>
+                            <li>Risk Management Controls</li>
+                            <li>Performance Statistics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3 class="service-title">Forex IB Management</h3>
+                        <p class="service-description">
+                            Comprehensive Introducing Broker management systems with multi-level commission structures, real-time reporting, and automated commission calculations and payments.
+                        </p>
+                        <ul class="service-features">
+                            <li>Multi-level IB Hierarchy</li>
+                            <li>Commission Calculation Engine</li>
+                            <li>Real-time Reporting Dashboard</li>
+                            <li>Automated Payment Processing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content fade-in">
+                        <h2 class="section-title text-white mb-4">About ATOMBIT</h2>
+                        <p class="mb-4" style="font-size: 1.1rem; line-height: 1.6;">
+                            Founded with a vision to deliver atomic-level precision in technology solutions, ATOMBIT has emerged as a comprehensive technology partner providing forex systems, web development, mobile applications, digital marketing, and custom software solutions with over 10 years of industry expertise.
+                        </p>
+                        <p class="mb-4" style="font-size: 1.1rem; line-height: 1.6;">
+                            Our team of technology experts combines extensive development experience with cutting-edge technical skills to deliver solutions that drive real business growth for clients across diverse industries including forex, e-commerce, healthcare, fintech, and more.
+                        </p>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <div class="tech-card">
+                                    <div class="tech-highlight">10+</div>
+                                    <div>Years Experience</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="tech-card">
+                                    <div class="tech-highlight">300+</div>
+                                    <div>Projects Completed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="fade-in">
+                        <div style="background: rgba(0, 200, 150, 0.1); border-radius: 20px; padding: 2rem; backdrop-filter: blur(10px); border: 1px solid rgba(0, 200, 150, 0.3);">
+                            <h4 style="color: var(--atombit-orange); margin-bottom: 1.5rem; font-family: 'Playfair Display', serif;">Our Technology Stack:</h4>
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                    <i class="fas fa-chart-line" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                    Forex APIs, MT4/MT5 Integration, FIX Protocol
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                    <i class="fab fa-php" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                    PHP, Laravel, CodeIgniter, MySQL, PostgreSQL
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                    <i class="fab fa-python" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                    Python, Django, Flask, Pandas, NumPy
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                    <i class="fab fa-js-square" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                    JavaScript, React, Vue.js, Node.js, WebSockets
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                    <i class="fas fa-mobile-alt" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                    React Native, Flutter, iOS/Android Native
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                                    <i class="fas fa-server" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                    Linux Servers, Docker, Redis, Load Balancing
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Our Process</h2>
+                <p class="section-subtitle fade-in">Get started with ATOMBIT in 4 simple steps</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step fade-in">
+                        <div class="process-number">1</div>
+                        <h4 style="margin-bottom: 1rem; color: var(--deep-navy);">Contact Us</h4>
+                        <p style="color: #64748b;">Fill out our contact form protected by NDA, book a calendar and schedule a consultation with our AI experts.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step fade-in">
+                        <div class="process-number">2</div>
+                        <h4 style="margin-bottom: 1rem; color: var(--deep-navy);">Get a Consultation</h4>
+                        <p style="color: #64748b;">Get on a call with our team to discuss the feasibility of your AI project idea and explore possibilities.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step fade-in">
+                        <div class="process-number">3</div>
+                        <h4 style="margin-bottom: 1rem; color: var(--deep-navy);">Get a Cost Estimate</h4>
+                        <p style="color: #64748b;">Based on the project requirements, we share a detailed project proposal with budget and timeline estimates.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="process-step fade-in">
+                        <div class="process-number">4</div>
+                        <h4 style="margin-bottom: 1rem; color: var(--deep-navy);">Project Kickoff</h4>
+                        <p style="color: #64748b;">Once the project is signed, we bring together our team of AI experts and engineers to kick start your project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engagement Models -->
+    <section class="engagement-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Our Engagement Models</h2>
+                <p class="section-subtitle fade-in">Flexible partnership models tailored to your business needs</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="engagement-card fade-in">
+                        <div class="engagement-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 style="margin-bottom: 1rem; color: var(--deep-navy);">Dedicated AI Team</h3>
+                        <p style="color: #64748b; line-height: 1.6;">Our AI developers and data scientists leverage cutting-edge cognitive technologies to deliver high-quality services and tailored solutions to our clients.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="engagement-card fade-in">
+                        <div class="engagement-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3 style="margin-bottom: 1rem; color: var(--deep-navy);">Team Extension</h3>
+                        <p style="color: #64748b; line-height: 1.6;">Our team extension model is designed to assist clients seeking to expand their teams with the precise AI and technical expertise needed for their projects.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="engagement-card fade-in">
+                        <div class="engagement-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 style="margin-bottom: 1rem; color: var(--deep-navy);">Project-based Model</h3>
+                        <p style="color: #64748b; line-height: 1.6;">Our project-oriented approach, supported by our team of AI development specialists, is dedicated to fostering client collaboration and achieving specific project objectives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Success Impact Section -->
+    <section id="impact" class="testimonials-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fade-in">Client Success Impact</h2>
+                <p class="section-subtitle fade-in">Measurable results delivered across industries through our AI and technology solutions</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="testimonial-card fade-in">
+                        <div style="text-align: center; margin-bottom: 2rem;">
+                            <div style="font-size: 3rem; color: var(--atombit-green); font-weight: 700; font-family: 'Playfair Display', serif;">300%</div>
+                            <h4 style="color: var(--deep-navy); margin: 1rem 0;">Revenue Growth</h4>
+                        </div>
+                        <p style="color: #64748b; line-height: 1.6; text-align: center;">
+                            E-commerce client achieved 300% revenue increase within 6 months through our AI-powered recommendation engine and digital marketing automation.
+                        </p>
+                        <div style="text-align: center; margin-top: 1.5rem;">
+                            <span style="background: linear-gradient(45deg, var(--atombit-green), #00E6A7); color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.8rem;">E-COMMERCE AI SOLUTION</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="testimonial-card fade-in">
+                        <div style="text-align: center; margin-bottom: 2rem;">
+                            <div style="font-size: 3rem; color: var(--atombit-orange); font-weight: 700; font-family: 'Playfair Display', serif;">80%</div>
+                            <h4 style="color: var(--deep-navy); margin: 1rem 0;">Process Automation</h4>
+                        </div>
+                        <p style="color: #64748b; line-height: 1.6; text-align: center;">
+                            Manufacturing client reduced manual processes by 80% and improved operational efficiency through our custom ERP system and IoT integration.
+                        </p>
+                        <div style="text-align: center; margin-top: 1.5rem;">
+                            <span style="background: linear-gradient(45deg, var(--atombit-orange), #FF7A00); color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.8rem;">MANUFACTURING AUTOMATION</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="testimonial-card fade-in">
+                        <div style="text-align: center; margin-bottom: 2rem;">
+                            <div style="font-size: 3rem; color: var(--tech-blue); font-weight: 700; font-family: 'Playfair Display', serif;">60%</div>
+                            <h4 style="color: var(--deep-navy); margin: 1rem 0;">Cost Reduction</h4>
+                        </div>
+                        <p style="color: #64748b; line-height: 1.6; text-align: center;">
+                            Healthcare client achieved 60% cost reduction in patient management and 40% improvement in diagnostic accuracy through our AI-powered healthcare platform.
+                        </p>
+                        <div style="text-align: center; margin-top: 1.5rem;">
+                            <span style="background: linear-gradient(45deg, var(--tech-blue), #0052CC); color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.8rem;">HEALTHCARE AI PLATFORM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Industry-wise Success Metrics -->
+            <div class="row mt-5">
+                <div class="col-lg-6 mb-4">
+                    <div style="background: linear-gradient(45deg, rgba(0, 200, 150, 0.1), rgba(255, 140, 0, 0.1)); border-radius: 20px; padding: 2.5rem; border: 1px solid rgba(0, 200, 150, 0.2);">
+                        <h4 style="color: var(--deep-navy); margin-bottom: 2rem; font-family: 'Playfair Display', serif; text-align: center;">FinTech & Forex Solutions</h4>
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--atombit-green);">95%</div>
+                                <div style="font-size: 0.9rem; color: #64748b;">Trading Accuracy</div>
+                            </div>
+                            <div class="col-4">
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--atombit-green);">50ms</div>
+                                <div style="font-size: 0.9rem; color: #64748b;">Response Time</div>
+                            </div>
+                            <div class="col-4">
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--atombit-green);">24/7</div>
+                                <div style="font-size: 0.9rem; color: #64748b;">System Uptime</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div style="background: linear-gradient(45deg, rgba(255, 140, 0, 0.1), rgba(0, 102, 255, 0.1)); border-radius: 20px; padding: 2.5rem; border: 1px solid rgba(255, 140, 0, 0.2);">
+                        <h4 style="color: var(--deep-navy); margin-bottom: 2rem; font-family: 'Playfair Display', serif; text-align: center;">Retail & Jewelry CRM</h4>
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--atombit-orange);">45%</div>
+                                <div style="font-size: 0.9rem; color: #64748b;">Sales Increase</div>
+                            </div>
+                            <div class="col-4">
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--atombit-orange);">90%</div>
+                                <div style="font-size: 0.9rem; color: #64748b;">Customer Retention</div>
+                            </div>
+                            <div class="col-4">
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--atombit-orange);">70%</div>
+                                <div style="font-size: 0.9rem; color: #64748b;">Inventory Accuracy</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Achievements -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div style="background: var(--deep-navy); border-radius: 20px; padding: 3rem; text-align: center;">
+                        <h3 style="color: var(--atombit-green); margin-bottom: 2rem; font-family: 'Playfair Display', serif;">Key Achievements Across All Projects</h3>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 mb-3">
+                                <div style="color: #ffffff;">
+                                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--atombit-green);">98%</div>
+                                    <div style="font-size: 1rem; opacity: 0.8;">Client Satisfaction Rate</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-3">
+                                <div style="color: #ffffff;">
+                                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--atombit-orange);">100%</div>
+                                    <div style="font-size: 1rem; opacity: 0.8;">On-Time Delivery</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-3">
+                                <div style="color: #ffffff;">
+                                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--tech-blue);">85%</div>
+                                    <div style="font-size: 1rem; opacity: 0.8;">Average ROI Improvement</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-3">
+                                <div style="color: #ffffff;">
+                                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--success-green);">24x7</div>
+                                    <div style="font-size: 1rem; opacity: 0.8;">Post-Launch Support</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="fade-in">
+                        <h2 class="section-title text-white mb-4">Ready to Build Your Next Project?</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 2rem;">
+                            Ready to transform your business with cutting-edge technology solutions? Whether it's forex systems, web development, mobile apps, or digital marketing - our team of technology experts is here to turn your vision into reality with atomic-level precision and 10+ years of industry expertise.
+                        </p>
+                        <div class="contact-info">
+                            <div style="margin-bottom: 1.5rem; display: flex; align-items: center;">
+                                <i class="fas fa-phone" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                <span style="font-size: 1.1rem;">+91 9281402168</span>
+                            </div>
+                            <div style="margin-bottom: 1.5rem; display: flex; align-items: center;">
+                                <i class="fas fa-envelope" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                <span style="font-size: 1.1rem;">hello@atombit.in</span>
+                            </div>
+                            <div style="margin-bottom: 1.5rem; display: flex; align-items: center;">
+                                <i class="fas fa-map-marker-alt" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                <span style="font-size: 1.1rem;">Hyderabad, Telangana, India</span>
+                            </div>
+                            <div style="margin-bottom: 1.5rem; display: flex; align-items: center;">
+                                <i class="fas fa-globe" style="color: var(--atombit-green); margin-right: 1rem; font-size: 1.2rem;"></i>
+                                <span style="font-size: 1.1rem;">www.atombit.in</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form fade-in">
+                        <h3 style="color: var(--atombit-orange); margin-bottom: 1.5rem; font-family: 'Playfair Display', serif;">Contact Us</h3>
+                        <form id="contactForm">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                            <input type="tel" class="form-control" placeholder="Phone Number" required>
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                            <textarea class="form-control" rows="4" placeholder="Your message or inquiry details..." required></textarea>
+                            <button type="submit" class="royal-btn w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
